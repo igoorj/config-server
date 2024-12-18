@@ -8,6 +8,6 @@ build:
 
 api:
   description: "Cards API"
-  author: "Igor Goncalves"
+  author: "dfceca0552bda9cedb6bc8c0e1534dff8959aca414250d858cde87d7af63d1b8"
   date: "2024-12-14"
   environment: "PROD"
