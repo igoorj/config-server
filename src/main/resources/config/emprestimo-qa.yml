@@ -7,7 +7,7 @@ build:
   version: "2.0"
 
 api:
-  description: "Emprestimo API"
+  description: "Emprestimo API 2"
   author: "Igor Goncalves"
   date: "2024-12-14"
   environment: "QA"
