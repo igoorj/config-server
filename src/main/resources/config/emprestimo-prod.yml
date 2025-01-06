@@ -8,6 +8,6 @@ build:
 
 api:
   description: "Emprestimo API"
-  author: "Igor Goncalves"
+  author: "Igor Goncalvess"
   date: "2024-12-14"
   environment: "Prod"

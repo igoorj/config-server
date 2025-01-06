@@ -7,11 +7,27 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/igoorj/config-server.git
+          uri: "https://github.com/igoorj/config-server.git"
           default-label: main
           timeout: 5
           clone-on-start: true
-          force-pull: true
-
+          search-paths:
+            - "src/main/resources/*"
 server:
   port: 8071
+encrypt:
+  key: "PYzCIpR2hUy7MDbb2WjG"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  health:
+    readinessState:
+      enabled: true
+    livenessState:
+      enabled: true
+  endpoint:
+    health:
+      probes:
+        enabled: true
